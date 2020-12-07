@@ -3,9 +3,11 @@
 Write a react component which will serve as an input for the spices used in cooking a dish. The component will allow users to easily search a list of suggested spices and add them to a list of selected spices. The input will also allow users to add spices which are not in the list of suggested spices.
 
 ## What it looks like
+
 ![tag input preview](https://github.com/shefhq/take-home-interview/blob/main/Screen%20Shot%202020-12-07%20at%2011.58.47%20AM.png)
 
 ## Requirements:
+
 - render a list of the currently selected spices in-line with the cursor for adding new spices
 - each currently selected spice can be removed from the list by clicking the 'x'
 - as a user types into the input, display a list of suggested spices
@@ -18,6 +20,7 @@ Write a react component which will serve as an input for the spices used in cook
   - clear out the typed text
 
 ## Bonus points
+
 You may complete these steps if you find yourself with extra time.
 
 - if the user clicks on one of the suggestions, add it to the list of selected spices and clear out the typed text
@@ -28,11 +31,12 @@ You may complete these steps if you find yourself with extra time.
   - if there are no selected spices, do nothing
 
 ## Hints
+
 1. Things do not have to look identical to the example image. What we care about the most is functionality, so focus on that before how the input looks.
 2. Write quality, readable code that you would feel comfortable with deploying to production. **If you are chosen to continue with the interview process, you will have to modify the code you write for the next step of the interview!**
 
-
 ## Example data
+
 Here is a list of spices to power the suggestions:
 
 ```
