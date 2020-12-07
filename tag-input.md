@@ -37,7 +37,9 @@ You may complete these steps if you find yourself with extra time.
 3. This type of component exists all over the internet, but we want to see you write your own. Third party libraries are OK to use, unless they completely trivialize the project. Use your best judgement, and reach out to your interviewer if you are unsure. We really just want to avoid having the entire project be completed with `npm install react-tag-autocomplete`.
 
 ## Submitting your work
+
 Link us to a [codesandbox](https://codesandbox.io) with your working demo in it. You may fork either of these sandboxes for a good head-start, or feel free to create your own:
+
 - [React/Typescript Sandbox](https://codesandbox.io/s/silly-feistel-qyv9e)
 - [React/Javascript Sandbox](https://codesandbox.io/s/infallible-tu-nw9se)
 
