@@ -4,8 +4,8 @@ Write a react component which will serve as an input for the spices used in cook
 
 ## What it looks like
 
-
 ## Requirements:
+
 - render a list of the currently selected spices
 - each currently selected spice can be removed from the list by clicking the 'x'
 - as a user types into the input, display a list of suggested spices
@@ -18,12 +18,12 @@ Write a react component which will serve as an input for the spices used in cook
   - value: an array of strings representing the currently selected spices
   - onChange: a function which will fire any time 'value' changes
 - if a user hits 'backspace':
-  - if the input is not selected, don't do anything 
+  - if the input is not selected, don't do anything
   - if there is text that was typed by the user, backspace should behave normally (deleting any selected text, or the character immediately to the left of the cursor)
   - if there is no text that was typed by the user, remove the most recently added selected spice from the list of selected spices
   - if there are no selected spices, do nothing
 
-Here is a list of spices to power the suggestions: 
+Here is a list of spices to power the suggestions:
 
 ```
 [
