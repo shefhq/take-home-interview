@@ -33,9 +33,9 @@ You may complete these steps if you find yourself with extra time.
 ## Hints
 
 1. We recommend you prioritize in the following order:
-    - Finish base requirements
-    - Ensure high code quality
-    - Bonus points / style
+   - Finish base requirements
+   - Ensure high code quality
+   - Bonus points / style
 1. Focus on functionality before style - things do not need to look identical to the example image.
 1. Write quality, readable code that you would feel comfortable with deploying to production. **To continue with the interview process, you will have to modify the code you write for the next step of the interview.**
 1. This type of component exists all over the internet, but we want to see you write your own. Third party libraries are OK to use, unless they completely trivialize the project (you should implement the core requirements yourself). Use your best judgement, and reach out to your interviewer if you are unsure.
