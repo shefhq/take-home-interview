@@ -15,7 +15,7 @@ Write a react component which will serve as an input for the spices used in cook
   - value: an array of strings representing the currently selected spices
   - onChange: a function which will fire any time 'value' changes
 - If the user presses 'enter' while typing:
-  - If there are any suggested spices, add the first one fo the list of selected spices
+  - If there are any suggested spices, add the first one to the list of selected spices
     - Otherwise, add a new selected spice whose value is the entire string that the user typed (allow users to add spices which are not on the list)
   - Clear out the typed text
 
