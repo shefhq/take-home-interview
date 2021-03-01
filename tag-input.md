@@ -1,6 +1,6 @@
 # Tag Input
 
-Write a react component which will serve as an input for the spices used in cooking a dish. The component will allow users to easily search a list of suggested spices and add them to a list of selected spices. The input will also allow users to add spices which are not in the list of suggested spices. This component will eventually be used with an api. Try to build it in such a way that you could use it unchanged when talking to a server.
+Write a react component which will serve as an input for the spices used in cooking a dish. The component will allow users to easily search a list of suggested spices and add them to a list of selected spices. The input will also allow users to add spices which are not in the list of suggested spices. This component will eventually be used with an api that accepts a search string and returns a list of suggestions. Try to build it in such a way that you could use it unchanged when talking to a server.
 
 ## What it looks like
 
