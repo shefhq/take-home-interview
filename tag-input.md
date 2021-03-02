@@ -33,7 +33,7 @@ Write a react component which will serve as an input for the spices used in cook
 1. We recommend you prioritize based on the following rubric:
    - Finish [the requirements](https://github.com/shefhq/take-home-interview/blob/rubric/tag-input.md#requirements) (50%)
      - Focus on functionality before style - things do not need to look identical to the example image.
-   - Ensure high code quality (35%)
+   - Ensure high code quality (30%)
      - Readable, reusable code that you would feel comfortable deploying to production.
      - You'll be building on your code in the next step of the interview process.
    - User Experience (20%)
