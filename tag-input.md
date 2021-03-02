@@ -1,6 +1,6 @@
 # Tag Input
 
-Write a react component which will serve as an input for the spices used in cooking a dish. The component will allow users to easily search a list of suggested spices and add them to a list of selected spices. The input will also allow users to add spices which are not in the list of suggested spices.
+Write a react component which will serve as an input for the spices used in cooking a dish. The component will allow users to easily search a list of suggested spices and add them to a list of selected spices. The input will also allow users to add spices which are not in the list of suggested spices. This component will eventually be used with an api that accepts a search string and returns a list of spice suggestions. Try to build it in such a way that you could use it unchanged when interacting a server.
 
 ## What it looks like
 
@@ -24,6 +24,9 @@ Write a react component which will serve as an input for the spices used in cook
     - If there is text that was typed by the user, backspace should behave normally (deleting any selected text, or the character immediately to the left of the cursor)
     - If there is no text that was typed by the user, remove the most recently added spice from the list of selected spices
     - If there are no selected spices, do nothing
+1. A clean api for dealing with asynchronus data sources
+    - Handle latency
+    - Handle failed requests
 
 ## Hints
 
