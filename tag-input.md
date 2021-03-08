@@ -24,6 +24,9 @@ Write a react component which will serve as an input for the spices used in cook
     - If there is text that was typed by the user, backspace should behave normally (deleting any selected text, or the character immediately to the left of the cursor)
     - If there is no text that was typed by the user, remove the most recently added spice from the list of selected spices
     - If there are no selected spices, do nothing
+1. If the user clicks on a suggestion
+    - Add it to the list of suggested spices
+    - Clear out the typed text
 1. A clean api for dealing with asynchronus data sources
     - Handle latency
     - Handle failed requests
