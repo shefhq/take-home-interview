@@ -14,7 +14,6 @@ Write a react component which will serve as an input for the spices used in cook
 1. Render a list of the currently selected spices in-line with the cursor for adding new spices (see blue boxes in screenshot)
 1. Each currently selected spice can be removed from the list by clicking the 'x'
 1. As the user types into the input, display a list of suggested spices (see white bubble in screenshot)
-    - Clicking on a suggestion should add it to the list of selected spices and clear out the typed text
 1. If the user presses 'enter' while typing:
     - If there are any suggested spices, add the first one to the list of selected spices
     - If no suggestions, add the string that the user typed to the list of selected spices (i.e. allow users to add spices which are not on the list)
