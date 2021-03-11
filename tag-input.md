@@ -37,7 +37,7 @@ Write a react component which will serve as an input for the spices used in cook
      - Focus on functionality before style - things do not need to look identical to the example image.
    - Ensure high code quality (30%)
      - Readable, reusable code that you would feel comfortable deploying to production.
-     - You'll be building on your code in the next step of the interview process.
+     - Components should be broken out in a thoughtful way.
    - User Experience (20%)
       - Ease of use, design, and performance
 
