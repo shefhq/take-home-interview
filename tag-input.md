@@ -14,7 +14,6 @@ Write a react component which will serve as an input for the spices used in cook
 1. Render a list of the currently selected spices in-line with the cursor for adding new spices (see blue boxes in screenshot)
 1. Each currently selected spice can be removed from the list by clicking the 'x'
 1. As the user types into the input, display a list of suggested spices (see white bubble in screenshot)
-    - Clicking on a suggestion should add it to the list of selected spices and clear out the typed text
 1. If the user presses 'enter' while typing:
     - If there are any suggested spices, add the first one to the list of selected spices
     - If no suggestions, add the string that the user typed to the list of selected spices (i.e. allow users to add spices which are not on the list)
@@ -24,6 +23,9 @@ Write a react component which will serve as an input for the spices used in cook
     - If there is text that was typed by the user, backspace should behave normally (deleting any selected text, or the character immediately to the left of the cursor)
     - If there is no text that was typed by the user, remove the most recently added spice from the list of selected spices
     - If there are no selected spices, do nothing
+1. If the user clicks on a suggestion
+    - Add it to the list of suggested spices
+    - Clear out the typed text
 1. A clean api for dealing with asynchronus data sources
     - Handle latency
     - Handle failed requests
