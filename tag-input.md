@@ -8,7 +8,7 @@ Write a react component which will serve as an input for the spices used in cook
 
 ## Requirements:
 
-1. The component must provide following props:
+1. The component must provide AT LEAST the following props:
     - values: an array of strings representing the currently selected spices
     - onChange: a function which will fire any time 'values' changes
 
@@ -18,6 +18,7 @@ const App = () => {
   const [selectedSpices, setSelectedSpices] = useState([]);
   return (
     <div>
+      {/* Any other props you think are necessary can be added, too */}
       <YourComponentHere value={selectedSpices} onChange={setSelectedSpices} />
     </div>
   );
