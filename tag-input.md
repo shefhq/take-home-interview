@@ -11,7 +11,19 @@ Write a react component which will serve as an input for the spices used in cook
 1. The component must provide following props:
     - values: an array of strings representing the currently selected spices
     - onChange: a function which will fire any time 'values' changes
-1. Render a list of the currently selected spices in-line with the cursor for adding new spices (see blue boxes in screenshot)
+
+Example:
+```
+const App = () => {
+  const [selectedSpices, setSelectedSpices] = useState([]);
+  return (
+    <div>
+      <YourComponentHere value={selectedSpices} onChange={setSelectedSpices} />
+    </div>
+  );
+}
+```
+2. Render a list of the currently selected spices in-line with the cursor for adding new spices (see blue boxes in screenshot)
 1. Each currently selected spice can be removed from the list by clicking the 'x'
 1. As the user types into the input, display a list of suggested spices (see white bubble in screenshot)
 1. If the user presses 'enter' while typing:
