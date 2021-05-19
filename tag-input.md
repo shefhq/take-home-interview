@@ -19,7 +19,7 @@ const App = () => {
   return (
     <div>
       {/* Any other props you think are necessary can be added, too */}
-      <YourComponentHere value={selectedSpices} onChange={setSelectedSpices} />
+      <YourComponentHere values={selectedSpices} onChange={setSelectedSpices} />
     </div>
   );
 }
